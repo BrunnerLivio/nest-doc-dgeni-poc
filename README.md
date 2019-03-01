@@ -3,6 +3,8 @@
 This repo is a proof of concept of generating the NestJS docs using
 dgeni.
 
+See an [example output](https://github.com/BrunnerLivio/nest-doc-dgeni-poc/blob/master/generated/NestApplicationContext/index.html)
+
 
 # Getting started
 
