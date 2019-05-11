@@ -1,0 +1,862 @@
+[
+  {
+    "name": "core",
+    "title": "@nestjs/core",
+    "path": "/core",
+    "items": [
+      {
+        "name": "abstracthttpadapter",
+        "title": "AbstractHttpAdapter",
+        "path": "/core/AbstractHttpAdapter",
+        "docType": "class"
+      },
+      {
+        "name": "app_filter",
+        "title": "APP_FILTER",
+        "path": "/core/APP_FILTER",
+        "docType": "const"
+      },
+      {
+        "name": "app_guard",
+        "title": "APP_GUARD",
+        "path": "/core/APP_GUARD",
+        "docType": "const"
+      },
+      {
+        "name": "app_interceptor",
+        "title": "APP_INTERCEPTOR",
+        "path": "/core/APP_INTERCEPTOR",
+        "docType": "const"
+      },
+      {
+        "name": "app_pipe",
+        "title": "APP_PIPE",
+        "path": "/core/APP_PIPE",
+        "docType": "const"
+      },
+      {
+        "name": "baseexceptionfilter",
+        "title": "BaseExceptionFilter",
+        "path": "/core/BaseExceptionFilter",
+        "docType": "class"
+      },
+      {
+        "name": "httpadapterhost",
+        "title": "HttpAdapterHost",
+        "path": "/core/HttpAdapterHost",
+        "docType": "class"
+      },
+      {
+        "name": "middlewarebuilder",
+        "title": "MiddlewareBuilder",
+        "path": "/core/MiddlewareBuilder",
+        "docType": "class"
+      },
+      {
+        "name": "moduleref",
+        "title": "ModuleRef",
+        "path": "/core/ModuleRef",
+        "docType": "class"
+      },
+      {
+        "name": "modulescontainer",
+        "title": "ModulesContainer",
+        "path": "/core/ModulesContainer",
+        "docType": "class"
+      },
+      {
+        "name": "nestapplication",
+        "title": "NestApplication",
+        "path": "/core/NestApplication",
+        "docType": "class"
+      },
+      {
+        "name": "nestapplicationcontext",
+        "title": "NestApplicationContext",
+        "path": "/core/NestApplicationContext",
+        "docType": "class"
+      },
+      {
+        "name": "nestcontainer",
+        "title": "NestContainer",
+        "path": "/core/NestContainer",
+        "docType": "class"
+      },
+      {
+        "name": "nestfactory",
+        "title": "NestFactory",
+        "path": "/core/NestFactory",
+        "docType": "const"
+      },
+      {
+        "name": "reflector",
+        "title": "Reflector",
+        "path": "/core/Reflector",
+        "docType": "class"
+      },
+      {
+        "name": "request",
+        "title": "REQUEST",
+        "path": "/core/REQUEST",
+        "docType": "const"
+      }
+    ]
+  },
+  {
+    "name": "common",
+    "title": "@nestjs/common",
+    "path": "/common",
+    "items": [
+      {
+        "name": "all",
+        "title": "All",
+        "path": "/common/All",
+        "docType": "const"
+      },
+      {
+        "name": "applicationhost",
+        "title": "ApplicationHost",
+        "path": "/common/ApplicationHost",
+        "docType": "interface"
+      },
+      {
+        "name": "argumentmetadata",
+        "title": "ArgumentMetadata",
+        "path": "/common/ArgumentMetadata",
+        "docType": "interface"
+      },
+      {
+        "name": "argumentshost",
+        "title": "ArgumentsHost",
+        "path": "/common/ArgumentsHost",
+        "docType": "interface"
+      },
+      {
+        "name": "badgatewayexception",
+        "title": "BadGatewayException",
+        "path": "/common/BadGatewayException",
+        "docType": "class"
+      },
+      {
+        "name": "badrequestexception",
+        "title": "BadRequestException",
+        "path": "/common/BadRequestException",
+        "docType": "class"
+      },
+      {
+        "name": "bind",
+        "title": "Bind",
+        "path": "/common/Bind",
+        "docType": "function"
+      },
+      {
+        "name": "body",
+        "title": "Body",
+        "path": "/common/Body",
+        "docType": "function"
+      },
+      {
+        "name": "cache_manager",
+        "title": "CACHE_MANAGER",
+        "path": "/common/CACHE_MANAGER",
+        "docType": "const"
+      },
+      {
+        "name": "cacheinterceptor",
+        "title": "CacheInterceptor",
+        "path": "/common/CacheInterceptor",
+        "docType": "class"
+      },
+      {
+        "name": "cachekey",
+        "title": "CacheKey",
+        "path": "/common/CacheKey",
+        "docType": "const"
+      },
+      {
+        "name": "cachemanageroptions",
+        "title": "CacheManagerOptions",
+        "path": "/common/CacheManagerOptions",
+        "docType": "interface"
+      },
+      {
+        "name": "cachemodule",
+        "title": "CacheModule",
+        "path": "/common/CacheModule",
+        "docType": "class"
+      },
+      {
+        "name": "cachemoduleasyncoptions",
+        "title": "CacheModuleAsyncOptions",
+        "path": "/common/CacheModuleAsyncOptions",
+        "docType": "interface"
+      },
+      {
+        "name": "cachemoduleoptions",
+        "title": "CacheModuleOptions",
+        "path": "/common/CacheModuleOptions",
+        "docType": "interface"
+      },
+      {
+        "name": "cacheoptionsfactory",
+        "title": "CacheOptionsFactory",
+        "path": "/common/CacheOptionsFactory",
+        "docType": "interface"
+      },
+      {
+        "name": "cachestore",
+        "title": "CacheStore",
+        "path": "/common/CacheStore",
+        "docType": "interface"
+      },
+      {
+        "name": "cachestorefactory",
+        "title": "CacheStoreFactory",
+        "path": "/common/CacheStoreFactory",
+        "docType": "interface"
+      },
+      {
+        "name": "callhandler",
+        "title": "CallHandler",
+        "path": "/common/CallHandler",
+        "docType": "interface"
+      },
+      {
+        "name": "canactivate",
+        "title": "CanActivate",
+        "path": "/common/CanActivate",
+        "docType": "interface"
+      },
+      {
+        "name": "catch",
+        "title": "Catch",
+        "path": "/common/Catch",
+        "docType": "function"
+      },
+      {
+        "name": "classserializerinterceptor",
+        "title": "ClassSerializerInterceptor",
+        "path": "/common/ClassSerializerInterceptor",
+        "docType": "class"
+      },
+      {
+        "name": "conflictexception",
+        "title": "ConflictException",
+        "path": "/common/ConflictException",
+        "docType": "class"
+      },
+      {
+        "name": "controller",
+        "title": "Controller",
+        "path": "/common/Controller",
+        "docType": "function"
+      },
+      {
+        "name": "controlleroptions",
+        "title": "ControllerOptions",
+        "path": "/common/ControllerOptions",
+        "docType": "interface"
+      },
+      {
+        "name": "createparamdecorator",
+        "title": "createParamDecorator",
+        "path": "/common/createParamDecorator",
+        "docType": "function"
+      },
+      {
+        "name": "delete",
+        "title": "Delete",
+        "path": "/common/Delete",
+        "docType": "const"
+      },
+      {
+        "name": "dependencies",
+        "title": "Dependencies",
+        "path": "/common/Dependencies",
+        "docType": "const"
+      },
+      {
+        "name": "dynamicmodule",
+        "title": "DynamicModule",
+        "path": "/common/DynamicModule",
+        "docType": "interface"
+      },
+      {
+        "name": "exceptionfilter",
+        "title": "ExceptionFilter",
+        "path": "/common/ExceptionFilter",
+        "docType": "interface"
+      },
+      {
+        "name": "executioncontext",
+        "title": "ExecutionContext",
+        "path": "/common/ExecutionContext",
+        "docType": "interface"
+      },
+      {
+        "name": "flatten",
+        "title": "flatten",
+        "path": "/common/flatten",
+        "docType": "function"
+      },
+      {
+        "name": "forbiddenexception",
+        "title": "ForbiddenException",
+        "path": "/common/ForbiddenException",
+        "docType": "class"
+      },
+      {
+        "name": "forwardref",
+        "title": "forwardRef",
+        "path": "/common/forwardRef",
+        "docType": "const"
+      },
+      {
+        "name": "forwardreference",
+        "title": "ForwardReference",
+        "path": "/common/ForwardReference",
+        "docType": "interface"
+      },
+      {
+        "name": "gatewaytimeoutexception",
+        "title": "GatewayTimeoutException",
+        "path": "/common/GatewayTimeoutException",
+        "docType": "class"
+      },
+      {
+        "name": "get",
+        "title": "Get",
+        "path": "/common/Get",
+        "docType": "const"
+      },
+      {
+        "name": "global",
+        "title": "Global",
+        "path": "/common/Global",
+        "docType": "function"
+      },
+      {
+        "name": "goneexception",
+        "title": "GoneException",
+        "path": "/common/GoneException",
+        "docType": "class"
+      },
+      {
+        "name": "head",
+        "title": "Head",
+        "path": "/common/Head",
+        "docType": "const"
+      },
+      {
+        "name": "header",
+        "title": "Header",
+        "path": "/common/Header",
+        "docType": "function"
+      },
+      {
+        "name": "headers",
+        "title": "Headers",
+        "path": "/common/Headers",
+        "docType": "const"
+      },
+      {
+        "name": "httpcode",
+        "title": "HttpCode",
+        "path": "/common/HttpCode",
+        "docType": "function"
+      },
+      {
+        "name": "httpexception",
+        "title": "HttpException",
+        "path": "/common/HttpException",
+        "docType": "class"
+      },
+      {
+        "name": "httpmodule",
+        "title": "HttpModule",
+        "path": "/common/HttpModule",
+        "docType": "class"
+      },
+      {
+        "name": "httpmoduleasyncoptions",
+        "title": "HttpModuleAsyncOptions",
+        "path": "/common/HttpModuleAsyncOptions",
+        "docType": "interface"
+      },
+      {
+        "name": "httpmoduleoptions",
+        "title": "HttpModuleOptions",
+        "path": "/common/HttpModuleOptions",
+        "docType": "interface"
+      },
+      {
+        "name": "httpmoduleoptionsfactory",
+        "title": "HttpModuleOptionsFactory",
+        "path": "/common/HttpModuleOptionsFactory",
+        "docType": "interface"
+      },
+      {
+        "name": "httpserver",
+        "title": "HttpServer",
+        "path": "/common/HttpServer",
+        "docType": "interface"
+      },
+      {
+        "name": "httpservice",
+        "title": "HttpService",
+        "path": "/common/HttpService",
+        "docType": "class"
+      },
+      {
+        "name": "httpstatus",
+        "title": "HttpStatus",
+        "path": "/common/HttpStatus",
+        "docType": "enum"
+      },
+      {
+        "name": "imateapotexception",
+        "title": "ImATeapotException",
+        "path": "/common/ImATeapotException",
+        "docType": "class"
+      },
+      {
+        "name": "inestapplication",
+        "title": "INestApplication",
+        "path": "/common/INestApplication",
+        "docType": "interface"
+      },
+      {
+        "name": "inestapplicationcontext",
+        "title": "INestApplicationContext",
+        "path": "/common/INestApplicationContext",
+        "docType": "interface"
+      },
+      {
+        "name": "inestmicroservice",
+        "title": "INestMicroservice",
+        "path": "/common/INestMicroservice",
+        "docType": "interface"
+      },
+      {
+        "name": "inject",
+        "title": "Inject",
+        "path": "/common/Inject",
+        "docType": "function"
+      },
+      {
+        "name": "injectable",
+        "title": "Injectable",
+        "path": "/common/Injectable",
+        "docType": "function"
+      },
+      {
+        "name": "injectableoptions",
+        "title": "InjectableOptions",
+        "path": "/common/InjectableOptions",
+        "docType": "interface"
+      },
+      {
+        "name": "internalservererrorexception",
+        "title": "InternalServerErrorException",
+        "path": "/common/InternalServerErrorException",
+        "docType": "class"
+      },
+      {
+        "name": "literalobject",
+        "title": "LiteralObject",
+        "path": "/common/LiteralObject",
+        "docType": "interface"
+      },
+      {
+        "name": "logger",
+        "title": "Logger",
+        "path": "/common/Logger",
+        "docType": "class"
+      },
+      {
+        "name": "loggerservice",
+        "title": "LoggerService",
+        "path": "/common/LoggerService",
+        "docType": "interface"
+      },
+      {
+        "name": "methodnotallowedexception",
+        "title": "MethodNotAllowedException",
+        "path": "/common/MethodNotAllowedException",
+        "docType": "class"
+      },
+      {
+        "name": "middlewareconsumer",
+        "title": "MiddlewareConsumer",
+        "path": "/common/MiddlewareConsumer",
+        "docType": "interface"
+      },
+      {
+        "name": "mixin",
+        "title": "mixin",
+        "path": "/common/mixin",
+        "docType": "function"
+      },
+      {
+        "name": "module",
+        "title": "Module",
+        "path": "/common/Module",
+        "docType": "function"
+      },
+      {
+        "name": "nestinterceptor",
+        "title": "NestInterceptor",
+        "path": "/common/NestInterceptor",
+        "docType": "interface"
+      },
+      {
+        "name": "nestmiddleware",
+        "title": "NestMiddleware",
+        "path": "/common/NestMiddleware",
+        "docType": "interface"
+      },
+      {
+        "name": "nestmodule",
+        "title": "NestModule",
+        "path": "/common/NestModule",
+        "docType": "interface"
+      },
+      {
+        "name": "next",
+        "title": "Next",
+        "path": "/common/Next",
+        "docType": "const"
+      },
+      {
+        "name": "notacceptableexception",
+        "title": "NotAcceptableException",
+        "path": "/common/NotAcceptableException",
+        "docType": "class"
+      },
+      {
+        "name": "notfoundexception",
+        "title": "NotFoundException",
+        "path": "/common/NotFoundException",
+        "docType": "class"
+      },
+      {
+        "name": "notimplementedexception",
+        "title": "NotImplementedException",
+        "path": "/common/NotImplementedException",
+        "docType": "class"
+      },
+      {
+        "name": "onapplicationbootstrap",
+        "title": "OnApplicationBootstrap",
+        "path": "/common/OnApplicationBootstrap",
+        "docType": "interface"
+      },
+      {
+        "name": "onapplicationshutdown",
+        "title": "OnApplicationShutdown",
+        "path": "/common/OnApplicationShutdown",
+        "docType": "interface"
+      },
+      {
+        "name": "onmoduledestroy",
+        "title": "OnModuleDestroy",
+        "path": "/common/OnModuleDestroy",
+        "docType": "interface"
+      },
+      {
+        "name": "onmoduleinit",
+        "title": "OnModuleInit",
+        "path": "/common/OnModuleInit",
+        "docType": "interface"
+      },
+      {
+        "name": "optional",
+        "title": "Optional",
+        "path": "/common/Optional",
+        "docType": "function"
+      },
+      {
+        "name": "options",
+        "title": "Options",
+        "path": "/common/Options",
+        "docType": "const"
+      },
+      {
+        "name": "param",
+        "title": "Param",
+        "path": "/common/Param",
+        "docType": "function"
+      },
+      {
+        "name": "paramdata",
+        "title": "ParamData",
+        "path": "/common/ParamData",
+        "docType": "type-alias"
+      },
+      {
+        "name": "paramdecoratorenhancer",
+        "title": "ParamDecoratorEnhancer",
+        "path": "/common/ParamDecoratorEnhancer",
+        "docType": "type-alias"
+      },
+      {
+        "name": "paramtype",
+        "title": "Paramtype",
+        "path": "/common/Paramtype",
+        "docType": "type-alias"
+      },
+      {
+        "name": "parseintpipe",
+        "title": "ParseIntPipe",
+        "path": "/common/ParseIntPipe",
+        "docType": "class"
+      },
+      {
+        "name": "patch",
+        "title": "Patch",
+        "path": "/common/Patch",
+        "docType": "const"
+      },
+      {
+        "name": "payloadtoolargeexception",
+        "title": "PayloadTooLargeException",
+        "path": "/common/PayloadTooLargeException",
+        "docType": "class"
+      },
+      {
+        "name": "pipetransform",
+        "title": "PipeTransform",
+        "path": "/common/PipeTransform",
+        "docType": "interface"
+      },
+      {
+        "name": "plainliteralobject",
+        "title": "PlainLiteralObject",
+        "path": "/common/PlainLiteralObject",
+        "docType": "interface"
+      },
+      {
+        "name": "post",
+        "title": "Post",
+        "path": "/common/Post",
+        "docType": "const"
+      },
+      {
+        "name": "provider",
+        "title": "Provider",
+        "path": "/common/Provider",
+        "docType": "type-alias"
+      },
+      {
+        "name": "put",
+        "title": "Put",
+        "path": "/common/Put",
+        "docType": "const"
+      },
+      {
+        "name": "query",
+        "title": "Query",
+        "path": "/common/Query",
+        "docType": "function"
+      },
+      {
+        "name": "reflectmetadata",
+        "title": "ReflectMetadata",
+        "path": "/common/ReflectMetadata",
+        "docType": "const"
+      },
+      {
+        "name": "render",
+        "title": "Render",
+        "path": "/common/Render",
+        "docType": "function"
+      },
+      {
+        "name": "req",
+        "title": "Req",
+        "path": "/common/Req",
+        "docType": "const"
+      },
+      {
+        "name": "request",
+        "title": "Request",
+        "path": "/common/Request",
+        "docType": "const"
+      },
+      {
+        "name": "requestmapping",
+        "title": "RequestMapping",
+        "path": "/common/RequestMapping",
+        "docType": "const"
+      },
+      {
+        "name": "requestmethod",
+        "title": "RequestMethod",
+        "path": "/common/RequestMethod",
+        "docType": "enum"
+      },
+      {
+        "name": "requesttimeoutexception",
+        "title": "RequestTimeoutException",
+        "path": "/common/RequestTimeoutException",
+        "docType": "class"
+      },
+      {
+        "name": "res",
+        "title": "Res",
+        "path": "/common/Res",
+        "docType": "const"
+      },
+      {
+        "name": "response",
+        "title": "Response",
+        "path": "/common/Response",
+        "docType": "const"
+      },
+      {
+        "name": "routeparamsmetadata",
+        "title": "RouteParamsMetadata",
+        "path": "/common/RouteParamsMetadata",
+        "docType": "interface"
+      },
+      {
+        "name": "rpcexceptionfilter",
+        "title": "RpcExceptionFilter",
+        "path": "/common/RpcExceptionFilter",
+        "docType": "interface"
+      },
+      {
+        "name": "scope",
+        "title": "Scope",
+        "path": "/common/Scope",
+        "docType": "enum"
+      },
+      {
+        "name": "serializeoptions",
+        "title": "SerializeOptions",
+        "path": "/common/SerializeOptions",
+        "docType": "const"
+      },
+      {
+        "name": "serviceunavailableexception",
+        "title": "ServiceUnavailableException",
+        "path": "/common/ServiceUnavailableException",
+        "docType": "class"
+      },
+      {
+        "name": "session",
+        "title": "Session",
+        "path": "/common/Session",
+        "docType": "const"
+      },
+      {
+        "name": "setmetadata",
+        "title": "SetMetadata",
+        "path": "/common/SetMetadata",
+        "docType": "const"
+      },
+      {
+        "name": "singlescope",
+        "title": "SingleScope",
+        "path": "/common/SingleScope",
+        "docType": "function"
+      },
+      {
+        "name": "type",
+        "title": "Type",
+        "path": "/common/Type",
+        "docType": "interface"
+      },
+      {
+        "name": "unauthorizedexception",
+        "title": "UnauthorizedException",
+        "path": "/common/UnauthorizedException",
+        "docType": "class"
+      },
+      {
+        "name": "unprocessableentityexception",
+        "title": "UnprocessableEntityException",
+        "path": "/common/UnprocessableEntityException",
+        "docType": "class"
+      },
+      {
+        "name": "unsupportedmediatypeexception",
+        "title": "UnsupportedMediaTypeException",
+        "path": "/common/UnsupportedMediaTypeException",
+        "docType": "class"
+      },
+      {
+        "name": "uploadedfile",
+        "title": "UploadedFile",
+        "path": "/common/UploadedFile",
+        "docType": "const"
+      },
+      {
+        "name": "uploadedfiles",
+        "title": "UploadedFiles",
+        "path": "/common/UploadedFiles",
+        "docType": "const"
+      },
+      {
+        "name": "usefilters",
+        "title": "UseFilters",
+        "path": "/common/UseFilters",
+        "docType": "const"
+      },
+      {
+        "name": "useguards",
+        "title": "UseGuards",
+        "path": "/common/UseGuards",
+        "docType": "function"
+      },
+      {
+        "name": "useinterceptors",
+        "title": "UseInterceptors",
+        "path": "/common/UseInterceptors",
+        "docType": "function"
+      },
+      {
+        "name": "usepipes",
+        "title": "UsePipes",
+        "path": "/common/UsePipes",
+        "docType": "function"
+      },
+      {
+        "name": "validationerror",
+        "title": "ValidationError",
+        "path": "/common/ValidationError",
+        "docType": "interface"
+      },
+      {
+        "name": "validationpipe",
+        "title": "ValidationPipe",
+        "path": "/common/ValidationPipe",
+        "docType": "class"
+      },
+      {
+        "name": "validationpipeoptions",
+        "title": "ValidationPipeOptions",
+        "path": "/common/ValidationPipeOptions",
+        "docType": "interface"
+      },
+      {
+        "name": "websocketadapter",
+        "title": "WebSocketAdapter",
+        "path": "/common/WebSocketAdapter",
+        "docType": "interface"
+      },
+      {
+        "name": "wsexceptionfilter",
+        "title": "WsExceptionFilter",
+        "path": "/common/WsExceptionFilter",
+        "docType": "interface"
+      },
+      {
+        "name": "wsmessagehandler",
+        "title": "WsMessageHandler",
+        "path": "/common/WsMessageHandler",
+        "docType": "interface"
+      }
+    ]
+  }
+]
